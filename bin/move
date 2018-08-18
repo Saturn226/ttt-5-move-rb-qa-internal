@@ -12,4 +12,4 @@ input = gets.strip
 
 converted_input = input_to_index(input)
 
-move(converted_input)
+move(board, converted_input)
