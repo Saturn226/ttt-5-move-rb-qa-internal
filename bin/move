@@ -10,4 +10,4 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to move?"
 input = gets.strip
 
-input_to_index(input)
+converted_input = input_to_index(input)
